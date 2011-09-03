@@ -4,7 +4,7 @@ Contributors: jwz@jwz.org
 Tags: shortlinks
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 This plugin makes your shortlinks shorter!
 
@@ -27,3 +27,6 @@ becomes: `http&#58;//jwz.org/b/ygnM`
 
 = 1.0 =
 * Created
+
+= 1.1 =
+* Shortlinks that happened to have "-" in them were failing.  Fixed.
