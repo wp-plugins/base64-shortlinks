@@ -4,7 +4,7 @@ Contributors: jwz@jwz.org
 Tags: shortlinks
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 This plugin makes your shortlinks shorter!
 
@@ -16,6 +16,8 @@ On my site, the default shortlinks are 35 bytes long, even though I have a very 
 
 E.g., this: `http&#58;//www.jwz.org/blog/?p=13240780`  
 becomes: `http&#58;//jwz.org/b/ygnM`
+
+This doesn't affect your (long) permalinks: those can still be in whatever format you like.
 
 == Installation ==
 
@@ -30,3 +32,6 @@ becomes: `http&#58;//jwz.org/b/ygnM`
 
 = 1.1 =
 * Shortlinks that happened to have "-" in them were failing.  Fixed.
+
+= 1.2 =
+* Fixed a bug that affected blogs installed in the root directory of their site.
