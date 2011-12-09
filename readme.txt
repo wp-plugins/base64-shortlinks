@@ -4,7 +4,7 @@ Contributors: jwz@jwz.org
 Tags: shortlinks
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 This plugin makes your shortlinks shorter!
 
@@ -35,3 +35,6 @@ This doesn't affect your (long) permalinks: those can still be in whatever forma
 
 = 1.2 =
 * Fixed a bug that affected blogs installed in the root directory of their site.
+
+= 1.3 =
+* Fixed a bug that caused shortlinks to be longer than necessary on 32-bit systems.
