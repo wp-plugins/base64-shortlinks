@@ -10,11 +10,11 @@ This plugin makes your shortlinks shorter!
 
 == Description ==
 
-The default WordPress "shortlink" URLs look like this:
-`http&#58;//www.example.com/blog/?p=123`, where "`123`" is actually a
-7+ digit decimal number. This plugin shrinks your shortlinks by
-encoding that number into only 4 characters, and using the abbreviated
-URL prefix of your choice.
+The default WordPress "shortlink" URLs look like
+this: `http&#58;//www.example.com/blog/?p=123`, where "`123`" is
+actually a 7+ digit decimal number. This plugin shrinks your
+shortlinks by encoding that number into only 4 characters, and using
+the abbreviated URL prefix of your choice.
 
 On my site, the default shortlinks are 35 bytes long, even though I
 have a very short domain name. This plugin shrinks them to 21 total
