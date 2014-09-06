@@ -4,7 +4,7 @@ Contributors: jwz
 Tags: shortlinks
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 1.3
+Stable tag: 1.4
 
 This plugin makes your shortlinks shorter!
 
@@ -50,3 +50,6 @@ whatever format you like.
 = 1.3 =
 * Fixed a bug that caused shortlinks to be longer than necessary on
   32-bit systems.
+
+= 1.4 =
+* Fix for WordPress 4.0.

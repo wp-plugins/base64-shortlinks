@@ -2,13 +2,13 @@
 /*
 Plugin Name: Base64 Shortlinks
 Plugin URI: http://www.jwz.org/base64-shortlinks/
-Version: 1.3
+Version: 1.4
 Description: This plugin makes your shortlinks shorter! Depending on your domain name, this can reduce the length of your shortlink URLs to as few as 20 characters, which is comparable to or better than what most public URL-shortening services can accomplish.
 Author: Jamie Zawinski
 Author URI: http://www.jwz.org/
 */
 
-/* Copyright © 2010-2011 Jamie Zawinski <jwz@jwz.org>
+/* Copyright © 2010-2014 Jamie Zawinski <jwz@jwz.org>
 
    Permission to use, copy, modify, distribute, and sell this software and its
    documentation for any purpose is hereby granted without fee, provided that
@@ -158,7 +158,6 @@ function b64sl_parse_query ($query) {
       $query->is_singular            = true;
       $query->is_page                = false;
       $query->is_home                = false;
-      $query->query_vars_changed     = true;
     }
   }
 }
