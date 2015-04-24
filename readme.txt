@@ -3,7 +3,7 @@
 Contributors: jwz
 Tags: shortlinks
 Requires at least: 2.7
-Tested up to: 4.1.2
+Tested up to: 4.2
 Stable tag: 1.4
 
 This plugin makes your shortlinks shorter!
